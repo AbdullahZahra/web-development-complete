@@ -13,9 +13,41 @@
 // 4) Also output the second element in your "main goals" variable
 // 5) Add a custom command that does the following:
 //    - Use your "main goals" variable and access an element by its identifier
-//    - The concrete identifier value should be dynamic / flexible 
+//    - The concrete identifier value should be dynamic / flexible
 //      (i.e. the command can be executed for different identifier)
-//    - The "main goals" variable should also be dynamic: The command should work 
+//    - The "main goals" variable should also be dynamic: The command should work
 //      with ANY list of values
 //    - The custom command should provide the accessed value (i.e. the list element)
 // 6) Execute your custom command from (5) and output ("alert") the result
+
+let courseName = "100 Days of Code - 2023 Web Development Bootcamp";
+let coursePrice = 70;
+let courseGoals = [
+  "To be a great web developer.",
+  "Because I love programming.",
+  "Because I want to learn how the internet works.",
+];
+
+alert(courseName);
+alert(coursePrice);
+alert(courseGoals);
+
+let course = {
+  name: courseName,
+  price: coursePrice,
+  goals: courseGoals,
+};
+
+let resultName, resultPrice, resultGoals;
+
+function accessCourse() {
+  resultName = course.name;
+  resultPrice = course.price;
+  resultGoals = course.goals;
+}
+
+accessCourse();
+
+alert(resultName);
+alert(resultPrice);
+alert(resultGoals);
