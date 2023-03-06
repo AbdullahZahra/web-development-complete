@@ -16,3 +16,6 @@ let userName = "Max";
 
 console.log(userName.length);
 console.log(userName.toLocaleUpperCase());
+
+let hobbies = ["Sports", "Cooking"];
+console.log(hobbies.length);
