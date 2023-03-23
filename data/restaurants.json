@@ -1,5 +1,6 @@
 [
   {
+    "id": "r1",
     "name": "Test",
     "address": "Teststreet, testcity",
     "cuisine": "Egyptian",
@@ -7,6 +8,7 @@
     "description": "I love Egypt!"
   },
   {
+    "id": "r2",
     "name": "Test2",
     "address": "Test2, test2",
     "cuisine": "Japanese",
@@ -14,10 +16,19 @@
     "description": "I love Japan."
   },
   {
+    "id": "r3",
     "name": "Test3",
     "address": "Test3, Test3",
     "cuisine": "Test3",
     "website": "https://ejs.co/",
     "description": "Test3Test3Test3Test3Test3"
+  },
+  {
+    "name": "Munich Finest Restaurant",
+    "address": "Greatstreat 5, Munich",
+    "cuisine": "German",
+    "website": "https://munich-awesome.com",
+    "description": "I love German!",
+    "id": "4a61a08a-ab60-4c2e-95a9-79a4b6090d3b"
   }
 ]
