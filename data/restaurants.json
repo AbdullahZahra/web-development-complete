@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Test",
+    "address": "Teststreet, testcity",
+    "cuisine": "Egyptian",
+    "website": "https://test.test",
+    "description": "I love Egypt!"
+  },
+  {
+    "name": "Test2",
+    "address": "Test2, test2",
+    "cuisine": "Japanese",
+    "website": "https://test2.test2",
+    "description": "I love Japan."
+  },
+  {
+    "name": "Test3",
+    "address": "Test3, Test3",
+    "cuisine": "Test3",
+    "website": "https://ejs.co/",
+    "description": "Test3Test3Test3Test3Test3"
+  }
+]
