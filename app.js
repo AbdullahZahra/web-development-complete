@@ -31,6 +31,12 @@ app.get("/restaurants", function (req, res) {
   });
 });
 
+// /restaurants/r1
+app.get("/restaurants/:id", function (req, res) {
+  const restaurantId = req.params.id;
+  res.render("restaurant-detail", { rid: restaurantId });
+});
+
 app.get("/confirm", function (req, res) {
   res.render("confirm");
 });
