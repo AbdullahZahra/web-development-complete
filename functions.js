@@ -19,3 +19,8 @@ const inputNumbers = [1, 5, 10, 11, 20, 31];
 console.log(sumUp(...inputNumbers));
 
 console.log(sumUp);
+
+const hobbies = ["Sports", "Cooking"];
+const newHobbies = hobbies;
+newHobbies.push("Reading");
+console.log(hobbies);
