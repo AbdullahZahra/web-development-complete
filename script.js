@@ -1,13 +1,18 @@
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
+const age = 15;
 
-console.log(now - 1991 > now - 2018);
+if (age >= 18) {
+  console.log("Sarah can start driving licence 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
 
-let x, y;
-x = y = 25 - 10 - 5; // x = y = 10, x = 10
-console.log(x, y);
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
 
-const averageAge = (ageJonas + ageSarah) / 2;
-console.log(ageJonas, ageSarah);
-console.log(averageAge);
+console.log(century);
