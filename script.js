@@ -1,18 +1,18 @@
-const age = 15;
+// Type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
 
-if (age >= 18) {
-  console.log("Sarah can start driving licence 🚗");
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
-}
+console.log(Number("Jonas"));
+console.log(typeof NaN);
 
-const birthYear = 2001;
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
+console.log(String(23), 23);
 
-console.log(century);
+// Type coercion
+console.log("I am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" / 2);
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n); // 10
