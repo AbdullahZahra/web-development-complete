@@ -1,18 +1,21 @@
-// 5 falsy values: 0, '', undefined, null, NaN
+const hasDriversLicense = true;
+const hasGoodVision = true;
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean("Jonas"));
-console.log(Boolean({}));
-console.log(Boolean(""));
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
 
-const money = 100;
-if (money) {
-  console.log("Don't spend it all ;)");
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; //
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
 } else {
-  console.log("You should get a job!");
+  console.log("Someone else should drive...");
 }
-
-let height = 0;
-if (height) console.log("YAY! Height is defined");
-else console.log("Height is UNDEFINED");
