@@ -51,3 +51,42 @@
 <p class="text-white bg-secondary">white text on secondary bg</p>
 <p class="text-light bg-danger">white text on danger bg</p>
 ```
+
+## Buttons & Button Groups
+
+```html
+<!-- basic buttons -->
+<h2>Buttons</h2>
+
+<button class="btn btn-primary">primary button</button>
+<button class="btn btn-secondary">secondary button</button>
+
+<!-- anchor tags as buttons -->
+<h2>Links as buttons</h2>
+
+<a href="#" class="btn btn-info">info anchor tag</a>
+<a href="#" class="btn btn-success">success anchor tag</a>
+
+<!-- button sizes -->
+<h2>Button sizes</h2>
+
+<button class="btn btn-lg btn-danger">larger danger button</button>
+<button class="btn btn-sm btn-warning">small danger button</button>
+
+<!-- outlined styles -->
+<h2>Button Styles</h2>
+
+<button class="btn btn-outline-primary">outlined primary button</button>
+<button class="btn btn-outline-secondary btn-lg">
+  large outlined secondary button
+</button>
+
+<!-- button groups -->
+<h2>Button Groups</h2>
+
+<div class="btn-group">
+  <a href="#" class="btn btn-primary">button 1</a>
+  <a href="#" class="btn btn-warning">button 2</a>
+  <a href="#" class="btn btn-success">button 2</a>
+</div>
+```
