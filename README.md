@@ -90,3 +90,39 @@
   <a href="#" class="btn btn-success">button 2</a>
 </div>
 ```
+
+# Utility Classes
+
+```html
+<!-- margin and padding -->
+<div class="bg-primary m-1 p-1">small margin and padding</div>
+<div class="bg-primary m-5 p-5">large margin and padding</div>
+<div class="bg-primary my-3 px-5">
+  margin in y direction, padding in x direction
+</div>
+<div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">
+  m & p for each direction
+</div>
+
+<!-- borders -->
+<div class="m-3 p-3 border">default border</div>
+<div class="m-3 p-3 border-top border-end">individual borders</div>
+<div class="m-3 p-3 border-start border-success">
+  border success colour at start
+</div>
+<div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+<div class="m-3 p-3 rounded border border-5">rounded corners</div>
+<div class="m-3 p-3 rounded-pill border border-5">rounded pill corners</div>
+
+<!-- box shadow -->
+<div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+<div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+
+<!-- font weight -->
+<p class="fw-bold">bold text</p>
+<p class="fw-bolder">bolder text</p>
+<p>bold text</p>
+<p class="fw-light">light text</p>
+<p class="fwt-italic">italic text</p>
+<p class="fwt-italic fw-light">italic light text</p>
+```
