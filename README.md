@@ -40,3 +40,5 @@ A brief introduction to JavaScript.
 ## Section 3: JavaScript Fundamentals - Part 2
 
 In progress...
+
+- [x] Strict Mode
