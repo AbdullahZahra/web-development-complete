@@ -42,3 +42,4 @@ A brief introduction to JavaScript.
 In progress...
 
 - [x] Strict Mode
+- [x] Functions
